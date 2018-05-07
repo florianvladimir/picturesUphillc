@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.02.2018, 16:13:27
+    Author     : Florian
+*/
+@font-face { 
+    font-family: "fontcool"; 
+    src: url("../fonts/Montserrat-Regular.ttf"); 
+}
+@font-face{
+    font-family: "fontcoolb"; 
+    src: url("../fonts/Montserrat-SemiBold.ttf"); 
+}
+
+body{
+    font-family: fontcool;
+    
+}
+
+#pich{
+   background-image: url("../pictures/IMG_2237.jpg");
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position: center;
+  
+}
+.logo{
+    background-image: url("../pictures/logo_d_1.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.navbar{
+    background-color: rgba(50,100,150,0.9);
+    
+}
+
+a.nav-link{
+    color: white;
+    font-size: 130%;
+    
+}
+.content{
+    margin-top: 56px;
+}
+.titel{
+    font-size: 600%;
+    font-family: fontcoolb;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 25%;
+    color: rgba(255, 255,255 , 0.7);
+    text-align: center;
+}
+
+.content{
+    
+    width: 100%;
+    margin: 0 auto;
+    
+    
+}
+.content h1{
+    font-size: 400%;
+    
+    margin-bottom: 40px;
+
+}
+
+.maiart{
+    padding: 5% 0%;
+    height:max-content;
+}
+
+
+
+
+#scrlo {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    width: 40px;
+    padding: 10px;
+    background-color: rgba(150,150,150, .8);
+    border-radius: 100px;
+    text-align: center;
+}
+
+#scrlo:hover {
+    background-color: rgba(9,37,81, .7);
+}
+
+footer{
+    height: 70px;
+    background-color: rgba(50,100,150,0.9);
+    padding: 20px;
+    color: white;
+    font-size: 120%;
+}
+.part{
+    width: 100%;
+    
+}
+
+.part:nth-child(even) {
+    background-color: #E2E2E2;
+}
+#ver{
+    overflow: auto;
+    
+}
+
+@media screen and (min-width : 1920px){
+    #pich{
+    background-size: 103%;
+}
+}
+@media screen and (min-width : 1024px){
+    .titel{
+        padding-top: 19%;
+    }
+    .content{
+        width: 1020px;
+
+    }
+    #ver{
+    height: 800px;
+}
+
+
+}
+
+@media screen and (max-width : 767px){
+    .titel{
+        font-size: 400%;
+        
+    }
+    .content h1{
+        font-size: 300%;
+
+    }
+    .logo{
+    background-size: 60%;
+}
+#pich{
+    background-position-x: 90%;
+    background-position-y: 20%;
+}
+}
+@media screen and (max-width : 400px){
+    .titel{
+        font-size: 300%;
+        
+    }
+    .content h1{
+        font-size: 200%;
+
+    }
+}
+

@@ -1,0 +1,210 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04.01.2018, 10:12:35
+    Author     : moserfl
+*/
+
+#pice1{
+    background-color: goldenrod;
+}
+
+.contText{
+    margin: 2% 5%;
+    width: calc(100% - 10%);
+    height: 100%;
+    float: left;
+}
+
+.whitecont h1{
+    padding-top: 70px;
+}
+
+#content{
+    margin: 1% auto;
+    width: 1024x;
+}
+
+.whitecont{
+
+    background-color: white;
+    margin: 0 auto;
+    width: 1024px;
+    overflow: auto
+        ;
+
+}
+.kartee1{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.big{
+    margin: 45px 0 10px 0;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0, .16), 0 6px 10px 0 rgba(0,0,0, .12);
+    border-radius: 2px;
+    background-color: white;
+
+}
+.big p, .big h1{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.art{
+    width: 100%;
+    height: 200px;
+
+}
+.art h2, .art p{
+    width: 400px;
+    margin: 0px auto;
+    padding: 30px 0 0 0;
+    text-align: center;
+
+
+}
+
+.light{
+    color: white;
+}
+.dark{
+    color: #0E6DBC;
+}
+
+.smallinf{
+    width: 200px;
+    height: 90px;
+    background-color: white;
+    float: left;
+    margin: 15px 10px;
+    text-align: center;
+    padding: 10px;
+    color: black;   
+}
+.biginf{
+    font-size: 170%;
+}
+
+#infcont{
+    width: 880px;
+    margin: 0 auto;
+    
+    
+}
+#continfo{
+    background-color: rgb(255,100,100);
+    width: 100%;
+    height: 120px;
+}
+.uebKl{
+    display: none;
+}
+#mape1k{
+    display: none;
+}
+
+#bild2{
+    background-image: url("../pictures/h2e.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#bild3{
+    background-image: url("../pictures/h3e.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#bild1{
+    background-image: url("../pictures/h1e.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.hohe{
+   width: 496px;
+   height: 318px;
+}
+.infotxt{
+        margin: 5% 0;
+        font-size: 20px;
+    }
+    
+#picInf{
+    background-image: url("../pictures/rfTh.jpg");
+    background-position: -100px;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+#picabout{
+   background-image: url("https://www.toeff-magazin.ch/wp-content/uploads/2017/01/Thruxton-1200-vs-Kawasaki-W800_toeff-magazin_1-600x400.jpg")
+}
+
+@media screen and (max-width : 1024px){
+    .whitecont{
+        width: 100%;
+        margin-left: 10px;
+       
+    }
+    #content{
+        width: 100%;
+    }
+
+    .smallinf{
+        float: none;
+        margin: 10px 0;
+            
+    }
+    #continfo{
+        height: auto;
+        overflow: auto;
+        
+    }
+    #infcont{
+        width: 200px;
+    }
+    .uebGr{
+        display: none;
+    }
+    .uebKl{
+        display: block;
+        
+    }
+    .whitecont h1{
+        padding: 0;
+    }
+    .big{
+        height: 370px;
+       
+    }
+    #mape1k{
+        display: block;
+    }
+    #mape1g{
+        display: none;
+    }
+    .infotxt{
+        margin: 5%;
+    }
+    
+}
+
+@media screen and (max-width : 400px){
+    .big{
+        height: 300px;
+       
+    }
+    
+    
+}
+
