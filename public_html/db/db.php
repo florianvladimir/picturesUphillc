@@ -2,12 +2,10 @@
 
 function connect()
 {
-//     $server="localhost";
-//     $user = "root";
-//     $pw = "";
-    $server="localhost:3306";
-    $user = "tux";
-    $pw = "mqIw32~3";
+    $server="localhost";
+    $user = "root";
+    $pw = "";
+//    $server="localhost:3306";
     $dbn= "bilder";
     
     $conn = new mysqli($server, $user, $pw, $dbn);
